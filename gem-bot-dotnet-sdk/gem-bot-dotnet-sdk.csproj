@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>gem_bot_dotnet_sdk</RootNamespace>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="SmartFox2X, Version=1.17.7.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>smartfox_dll\SmartFox2X.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

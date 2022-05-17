@@ -1,0 +1,38 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">gem-bot-blazor</a>
+    </div>
+</div>
+
+<div>
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <input disabled="@isLoggedin" type="text" placeholder="username"/>
+            @if (isLoggedin)
+            {
+                <button @onclick="logout">Logout</button>
+            }
+            else
+            {
+                <button @onclick="login">Login</button>
+            }
+        </div>
+        
+    </nav>
+</div>
+
+@code {
+    private bool isLoggedin = false;
+    private string userName = string.Empty;
+
+    private void login()
+    {
+        isLoggedin = true;
+    }
+
+    private void logout()
+    {
+        isLoggedin = false;
+    }
+
+}

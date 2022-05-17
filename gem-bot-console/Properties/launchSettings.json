@@ -1,0 +1,9 @@
+﻿{
+  "profiles": {
+    "gem_bot_console": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false
+    }
+  }
+}

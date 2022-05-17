@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gem-bot-blazor", "gem-bot-blazor\gem-bot-blazor.csproj", "{66EEBFA6-3CE4-407F-8F9F-E19BC92115FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gem-bot-dotnet-sdk", "gem-bot-dotnet-sdk\gem-bot-dotnet-sdk.csproj", "{8E29D9BD-BA60-486B-A7E8-D61AB75E85C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gem-bot-console", "gem-bot-console\gem-bot-console.csproj", "{FAB2E031-499F-4819-AA2A-2A1F16E4D052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66EEBFA6-3CE4-407F-8F9F-E19BC92115FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EEBFA6-3CE4-407F-8F9F-E19BC92115FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EEBFA6-3CE4-407F-8F9F-E19BC92115FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EEBFA6-3CE4-407F-8F9F-E19BC92115FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E29D9BD-BA60-486B-A7E8-D61AB75E85C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E29D9BD-BA60-486B-A7E8-D61AB75E85C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E29D9BD-BA60-486B-A7E8-D61AB75E85C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E29D9BD-BA60-486B-A7E8-D61AB75E85C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB2E031-499F-4819-AA2A-2A1F16E4D052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB2E031-499F-4819-AA2A-2A1F16E4D052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB2E031-499F-4819-AA2A-2A1F16E4D052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB2E031-499F-4819-AA2A-2A1F16E4D052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
